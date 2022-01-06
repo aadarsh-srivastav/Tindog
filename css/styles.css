@@ -1,0 +1,209 @@
+  /* html elements */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h2{
+    font-weight: bold;
+    line-height: 3rem;
+    color: #fff;
+    font-size: 2.5rem;
+}
+h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+}
+p{
+    
+    line-height: 1.5rem;
+    color: #8f8f8f;
+}
+em{
+    color: #fff;
+    
+}
+
+/* container */
+
+.container-fluid {
+    padding: 3% 5%;
+}
+
+
+/* navbar */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+/* download button  */
+
+.download-button{
+    margin: 8% 3% 0 0;
+}
+
+/* title */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+.title-image{
+    width:50%;
+    transform: rotate(18deg) translate(6rem,7rem);
+    position: relative;
+}
+
+
+/* section features */
+
+
+#features{
+    padding:6rem 2rem;
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+}
+.feature-icon{
+    color: #ef8172;
+    margin: 8% 49%;
+    transform: scale(3.5);
+}
+.feature-icon:hover{
+    color:#ff4c68
+}
+.beautify-feature{
+    padding:0 4rem;
+}
+
+/* testimonials */
+
+#testimonials{
+padding: 7rem 0;
+background-color:#ef8172;
+}
+
+.testimonial-image{
+  width: 13rem;
+  border-radius: 100%;
+  margin: 4rem 0 3rem 0;
+}
+.testimonial-text{
+    padding:0 10% ;
+
+}
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    padding: 3% 1% 3% 1%;
+}
+.press-image{
+    width: 14%;
+    margin: 0 1.3rem;
+}
+
+/* carousel */
+
+/* -- indicator is positioned absolute */
+.carousel-indicators{
+    top:32rem;
+}
+
+
+/* pricing */
+#pricing{
+    padding: 4rem 4rem;
+}
+#pricing h2{
+    font-family: "Montserrat-Black", sans-serif;
+    font-weight: bold;
+    line-height: 3rem;
+    color: #000;
+    font-size: 2.5rem;
+}
+.card-margin{
+padding: 3rem 4rem;
+}
+.card-header{
+    margin: 3rem 0 0 0;
+}
+.card-body{
+    background-color: rgb(233, 233, 233);
+   
+}
+
+/* call to action */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 5rem 9rem;
+}
+#cta h3{
+    font-family: "Montserrat-Black", sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 4rem;
+    
+}
+
+/* footer  */
+
+#footer{
+    background-color: #fff;
+    padding: 1.5rem;
+}
+.footer-icon{
+    margin: 0 4px;
+}
+
+
+
+
+@media (max-width:992px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        width:50%;
+    
+    }
+   
+}
+@media (min-width:800px) and (max-width:991px){
+   
+    .title-image{
+        width:300px;
+    }
+}
+@media (max-width:728px){
+    #cta{
+        padding: 3rem 1rem;
+    }
+    .cta-h3{
+        font-size: 2.5rem;
+    }
+}
